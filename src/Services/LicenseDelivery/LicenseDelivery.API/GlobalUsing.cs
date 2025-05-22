@@ -1,0 +1,12 @@
+﻿global using Carter;
+global using LicenseDelivery.API.Models;
+global using FluentValidation;
+global using Google.Apis.Auth.OAuth2;
+global using Google.Apis.Drive.v3;
+global using Google.Apis.Services;
+global using Mapster;
+global using MediatR;
+global using BuildingBlocks.CQRS;
+global using BuildingBlocks.Exceptions;
+global using LicenseDelivery.API.Exceptions;
+global using LicenseDelivery.API.LicenseDelivery.Infrastructure.GoogleDrive;
