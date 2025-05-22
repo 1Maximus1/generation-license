@@ -1,0 +1,6 @@
+services:
+  licensedelivery.api:
+    image: ${DOCKER_REGISTRY-}licensedeliveryapi
+    build:
+      context: .
+      dockerfile: Services/LicenseDelivery/LicenseDelivery.API/Dockerfile
